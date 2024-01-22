@@ -1,9 +1,5 @@
 public class Combsort {
-    public static void main(String[] args) {
-        int arr[] = {8, 4, 1, 56, 3, -44, 23, -6, 28, 0};
-        combSort(arr);
-        print(arr);
-    }
+
 
     private static int getNextGap(int gap) {
         // Shrink gap by Shrink factor
@@ -36,12 +32,6 @@ public class Combsort {
         }
     }
 
-    static void print(int arr[]) {
-        int n = arr.length;
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
+
 }
 
